@@ -1,4 +1,4 @@
-import { QueryProvider, AuthProvider, AppProvider, TenantProvider } from '@gaqno-dev/frontcore'
+import { QueryProvider, AuthProvider, AppProvider, TenantProvider } from '@gaqno-development/frontcore'
 
 function PDVPage() {
   return (

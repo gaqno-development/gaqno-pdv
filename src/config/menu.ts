@@ -1,4 +1,4 @@
-import { FeatureModule, FeaturePermissionLevel } from '@gaqno-dev/frontcore/types/user';
+import { FeatureModule, FeaturePermissionLevel } from '@gaqno-development/frontcore/types/user';
 import { Home, ShoppingCart, Package, History, Settings } from 'lucide-react';
 
 export interface MenuItem {
