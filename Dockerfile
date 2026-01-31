@@ -30,7 +30,7 @@ COPY --from=builder /app/public /usr/share/nginx/html/public
 
 # Copy nginx config
 RUN echo 'server { \
-    listen 3006; \
+    listen 3008; \
     server_name _; \
     root /usr/share/nginx/html; \
     index index.html; \
@@ -43,5 +43,5 @@ RUN echo 'server { \
     } \
 }' > /etc/nginx/conf.d/default.conf
 
-EXPOSE 3006
+EXPOSE 3008
 CMD ["nginx", "-g", "daemon off;"]
